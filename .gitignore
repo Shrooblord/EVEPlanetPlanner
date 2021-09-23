@@ -1,1 +1,3 @@
 *.code-workspace
+
+www/node_modules/*

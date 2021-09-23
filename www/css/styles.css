@@ -1,0 +1,11 @@
+body {
+    background-color: #101010;
+}
+
+h1, p, span {
+    color: #80DD80;
+}
+
+#app {
+    padding: 0.25%;
+}

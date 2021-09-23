@@ -1,0 +1,34 @@
+{
+  "name": "eve-shroobplanetplanner",
+  "version": "0.1.0",
+  "description": "A mobile-first webapp for planning your Planetary Industry needs in EVE.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrooblord/EVEPlanetPlanner.git"
+  },
+  "keywords": [
+    "eve",
+    "webapp",
+    "mobile",
+    "responsive",
+    "tool",
+    "pi",
+    "planetary",
+    "interaction",
+    "industry",
+    "planet",
+    "industry",
+    "planning",
+    "plan"
+  ],
+  "author": "Jango Course (Shrooblord)",
+  "license": "QPL-1.0",
+  "bugs": {
+    "url": "https://github.com/Shrooblord/EVEPlanetPlanner/issues"
+  },
+  "homepage": "https://github.com/Shrooblord/EVEPlanetPlanner#readme"
+}

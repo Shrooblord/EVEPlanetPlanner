@@ -8,12 +8,40 @@
 
 
 <title>EVE Planetary Industy Planning Tool</title>
+<meta name="description" content="A mobile-first webapp for planning your Planetary Industry needs in EVE.">
+<meta name="author" content="Jango Course">
+
+<meta property="og:title" content="EVE Planetary Industy Planning Tool">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.lunacian.net/eve/pi-planner/">
+<meta property="og:description" content="A mobile-first webapp for planning your Planetary Industry needs in EVE.">
+<!-- <meta property="og:image" content="image.png"> --> <!-- TODO: Add screenshot of website here (used for social media embeds). -->
+
+<!-- TODO: Actually add these icons -->
+<!--
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+-->
+
+<link rel="stylesheet" href="css/styles.css?v=1.0">
+<script src="https://unpkg.com/vue@next"></script>
 </head>
 
 <body>
 
-<h1>Welcome!</h1>
-<p>Choose a Planet Type to begin.</p>
+<div id="app">
+    <h1>{{ product }}</h1>
+    <p>Wow! I love {{ product }}. {{ description }}, after all!</p>
+</div>
+
+<!-- Import Vue App -->
+<script src="./main.js"></script>
+
+<!-- Mount App -->
+<script>
+    const mountedApp = app.mount('#app');
+</script>
 
 </body>
 </html>
